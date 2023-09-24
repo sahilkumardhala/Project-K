@@ -86,28 +86,29 @@ img {
     visibility: hidden;
     opacity: 0;
 }
-.content{
-    position: relative;
+
+.content {
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
 }
+
 .content a {
     text-decoration: none;
     display: inline-block;
-    color: #fff;
-    font-size: 40px;
-    border: 2px solid white;
-    margin-top: 20px;
     transition: 0.5s;
     align-items: bottom;
 }
 
 .content a:hover {
-    background: #fff;
-    color: #000;
+    background: #fb0202;
+    color: gold;
 }
 
 .github-logo {
-    width: 40px;
-    height: 40px;
-    margin-left: 5px;
-    
+    width: auto;
+    height: 100px;
+    margin-left: 50px;
+    position: absolute;
+
 }
