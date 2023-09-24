@@ -81,15 +81,9 @@ img {
     }
 }
 
-/* JavaScript */
-.active.trailer-container {
-    visibility: hidden;
-    opacity: 0;
-}
-
 .content {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 200px;
 }
 
@@ -106,9 +100,17 @@ img {
 }
 
 .github-logo {
-    width: auto;
-    height: 100px;
-    margin-left: 50px;
     position: absolute;
+    bottom: 20px;
+    right: 50px;
+    height: auto;
+    width: 100px;
+    cursor: pointer;
+}
 
+/* JavaScript */
+.active.trailer-container,
+.active.content {
+    visibility: hidden;
+    opacity: 0;
 }
